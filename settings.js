@@ -1,5 +1,5 @@
 module.exports = {
-    symbol : "MSFT",
+    symbol : "^DJI",
     timeSeries : "daily",
     timeParameter : {
         daily : "TIME_SERIES_DAILY",

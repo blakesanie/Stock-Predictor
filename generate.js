@@ -11,7 +11,7 @@ var daysBefore = settings.daysBefore;
 
 var url = "https://www.alphavantage.co/query?function="+ timeParameter +"&symbol="+ symbol +"&outputsize=full&apikey=Q89RW8U7CR3LC2AL";
 
-var neuralNetwork = new synaptic.Architect.Perceptron(daysBefore,50,1);
+var neuralNetwork = new synaptic.Architect.Perceptron(daysBefore,30,1);
 var trainer = new synaptic.Trainer(neuralNetwork);
 var maxValue;
 
